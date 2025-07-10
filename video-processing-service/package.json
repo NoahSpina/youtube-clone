@@ -1,0 +1,22 @@
+{
+  "name": "video-processing-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/ts-node src/index.ts",
+    "build": "node_modules/.bin/tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
